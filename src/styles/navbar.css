@@ -1,0 +1,39 @@
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #494747;
+    padding: 0 12px;
+}
+
+nav {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+nav a {
+    color: #fff;
+    margin-right: 1em;
+    text-decoration: none;
+}
+
+
+.nav-bar-btn {
+    padding: 8px 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    border-radius: 12px;
+  }
+  
+.nav-bar-btn:hover {
+    background-color: #0056b3;
+}
